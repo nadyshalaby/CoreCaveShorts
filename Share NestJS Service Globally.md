@@ -1,9 +1,15 @@
----
+<!DOCTYPE html>
+<html>
 
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Share NestJS Service Globally</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
 
----
-
-<p>In NestJS, you can make a service available across all modules by declaring it in a global module. Here are the steps to do it:</p>
+<body class="stackedit">
+  <div class="stackedit__html"><p>In NestJS, you can make a service available across all modules by declaring it in a global module. Here are the steps to do it:</p>
 <ol>
 <li>
 <p><strong>Create a Service</strong>: If you haven’t already, create the service that you want to share using the NestJS CLI. For instance, to create a service called <code>AppService</code>, you would run the following command:</p>
@@ -43,4 +49,7 @@
 </li>
 </ol>
 <p>Remember that while global modules can be very convenient, they should be used sparingly, as they can make it harder to understand which parts of your application depend on which other parts. It’s usually best to explicitly import the modules that you depend on.</p>
+</div>
+</body>
 
+</html>
